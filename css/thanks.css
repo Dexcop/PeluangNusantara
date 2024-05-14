@@ -10,6 +10,11 @@ header {
     justify-content: center;
 }
 
+.search-box {
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
 .logo img {
     width: 216px;
     height: 92.23px;
@@ -25,6 +30,11 @@ header {
     text-align: right;
 }
 
+.login-btn {
+    text-decoration: none;
+    color: black;
+}
+
 .join-btn {
     background-color: transparent;
     border: none;
@@ -34,21 +44,18 @@ header {
     text-decoration: none;
 }
 
-.search-box {
-    padding-top: 30px;
-    padding-left: 30px;
-}
-
-.login-btn {
-    text-decoration: none;
-    color: black;
-}
-
 .join-highlight {
     background-color: rgba(20, 174, 92, 1);
+    color: white;
+    text-decoration: none;
     padding: 10px;
     border-radius: 10px;
-    color: whitesmoke;
+}
+
+.content {
+    margin-top: 85px;
+    text-align: right;
+    text-decoration: none;
 }
 
 footer {
