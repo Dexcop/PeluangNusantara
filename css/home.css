@@ -1,17 +1,26 @@
 header {
     background-color: whitesmoke;
     color: black;
-    padding: 20px;
-    text-align: center;
+    /* padding: 20px; */
     position: absolute;
-    width: 97vw;
-    height: 37px;
+    width: 100vw;
+    height: 82px;
     top: 0;
     left: 0;
+    justify-content: center;
+}
+
+.logo img {
+    width: 216px;
+    height: 92.23px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .btn-header-container {
-    padding: 7px;
+    /* padding: 7px; */
     color: whitesmoke;
     text-align: right;
 }
@@ -19,10 +28,15 @@ header {
 .join-btn {
     background-color: transparent;
     border: none;
-    padding: 10px 20px;
+    padding: 40px;
     font-size: 16px;
     cursor: pointer;
     text-decoration: none;
+}
+
+.search-box {
+    padding-top: 30px;
+    padding-left: 30px;
 }
 
 .login-btn {
@@ -31,6 +45,30 @@ header {
 
 .join-highlight {
     background-color: rgba(20, 174, 92, 1);
-    padding: 10px 10px;
+    padding: 10px;
     border-radius: 10px;
+}
+
+footer {
+    background-color: whitesmoke;
+    color: black;
+    /* padding: 10px; */
+    position: absolute;
+    justify-content: center;
+    width: 100vw;
+    height: 37px;
+    bottom: 0;
+    left: 0;
+}
+
+footer div {
+    display: flex;
+    flex-direction: row;
+    padding-top: 5px;
+    margin-right: 145px;
+    margin-left: 5px;
+}
+
+footer div:last-child {
+    margin-right: 0;
 }
