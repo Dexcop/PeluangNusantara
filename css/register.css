@@ -45,6 +45,7 @@ footer div:last-child {
 .content {
     margin-top: 85px;
     text-align: right;
+    text-decoration: none;
 }
 
 .login-btn {
