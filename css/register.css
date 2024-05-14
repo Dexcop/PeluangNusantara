@@ -1,13 +1,22 @@
 header {
     background-color: whitesmoke;
     color: black;
-    padding: 20px;
-    text-align: center;
+    /* padding: 20px; */
     position: absolute;
-    width: 97vw;
-    height: 37px;
+    width: 100vw;
+    height: 82px;
     top: 0;
     left: 0;
+    justify-content: center;
+}
+
+.logo img {
+    width: 216px;
+    height: 92.23px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 footer {
