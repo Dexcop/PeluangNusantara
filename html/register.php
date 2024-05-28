@@ -5,13 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Peluang Nusantara - Register</title>
-    <link rel="stylesheet" href="/css/register.css">
+    <!-- <link rel="stylesheet" href="/css/register.css"> -->
 </head>
 
 <body>
-    <header>
-        <div class="logo"><img src="/assets/logo.png" alt=""></div>
-    </header>
+    <?php include '../components/navbar.php'?>
 
     <div class="content">
         <div class="login-container">
@@ -24,16 +22,7 @@
 
     </div>
 
-    <footer>
-        <div>
-            <div>© 2024 - Peluang Nusantara</div>
-            <div>Terms</div>
-            <div>Privacy Notice</div>
-            <div>Legal</div>
-            <div>Accessibility Statement</div>
-            <div>Your Privacy Choices</div>
-        </div>
-    </footer>
+    <?php include '../components/footer-bawah.php'?>
 </body>
 
 </html>

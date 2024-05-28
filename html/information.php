@@ -4,32 +4,14 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Peluang Nusantara - Information</title>
-        <link rel="stylesheet" href="/css/Information.css">
+        <!-- <link rel="stylesheet" href="/css/Information.css"> -->
       </head>
 <body>
-    <header>
-        <div class="search-box">
-          <input type="text" name="query" placeholder="Search">
-        </div>
-        <div class="logo"><img src="/assets/logo.png" alt=""></div>
-        <div class="btn-header-container">
-          <a href="" class="login-btn"><span class="login-highlight">LOGIN/SIGN IN</span></a>
-          <a href="" class="join-btn"><span class="join-highlight">JOIN US</span></a>
-        </div>
-      </header>
+    <?php include '../components/navbar.php'?>
       
     <h1>
         Leo
     </h1>
-    <footer>
-        <div>
-          <div>© 2024 - Peluang Nusantara</div>
-          <div>Terms</div>
-          <div>Privacy Notice</div>
-          <div>Legal</div>
-          <div>Accessibility Statement</div>
-          <div>Your Privacy Choices</div>
-        </div>
-      </footer>
+    <?php include '../components/footer-bawah.php'?>
 </body>
 </html>
