@@ -54,9 +54,20 @@
     display: block;
 }
 
+.banner {
+    height: 98vh;
+    background-image: url('../assets/kevin-lehtla.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .text {
     position: absolute;
-    top: 87%;
+    top: 66%;
     left: 0%;
     text-align: left;
     padding: 20px;
@@ -81,7 +92,7 @@
 
 .discover-btn button {
     position: absolute;
-    top: 97%;
+    top: 92%;
     right: 1%;
     /* transform: translate(-50%, -50%); */
     background-color: white;

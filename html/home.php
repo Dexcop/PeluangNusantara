@@ -13,7 +13,8 @@
 
     <div class="content">
         <div class="page2">
-            <img src="../assets/kevin-lehtla.jpg" alt="Sample Image" class="image">
+            <!-- <img src="../assets/kevin-lehtla.jpg" alt="Sample Image" class="image"> -->
+            <section class="banner"></section>
             <div class="text">
                 <h1>Discover Around You</h1>
                 <h2>Scholarship fundrasing by abc</h2>
