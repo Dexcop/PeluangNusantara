@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="../css/footer-atass.css">
 <footer class="footer"> 
         <div class="footer-logo">
-            <div class="mylogo"><img src="../assets/logo.png" alt="Peluang Nusantara Logo"></div>
+            <div class="mylogo-footer"><img src="../assets/logo.png" alt="Peluang Nusantara Logo"></div>
         </div>
         <div class="footer-nav">
             <div>
