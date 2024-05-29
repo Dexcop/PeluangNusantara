@@ -9,11 +9,11 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container" class="modal">
         <h2>Payment Detail</h2>
         <form action="process_payment.php" method="POST">
 
-            <label for="descriptio">Write your message:</label>
+            <label for="description">Write your message:</label>
             <textarea id="description" name="description" rows="4" required></textarea>
 
             <label for="name">Your Name:</label>
@@ -65,6 +65,7 @@
 
         
     </div>
+
 </body>
 
 </html>

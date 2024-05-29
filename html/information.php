@@ -11,7 +11,7 @@
 <body>
     <?php include '../components/navbar.php' ?>
 
-    <div class="container">
+    <div class="content2">
         <div class="left">
             <h1 class="title">Water for africa</h1>
             <img src="../assets/desert.jpg" class="image" alt="Water for africa">
@@ -108,7 +108,8 @@
             <div class="donation-bar">
                 <div class="progress"></div>
             </div>
-            <button class="donate-button">Donate</button>
+            <?php include '../components/payment-modal.php' ?>
+            <button class="donate-button" id="donate-button">Donate</button>
             <div class="donations">
                 <div class="donation-item">
                     <div class="donation-person">
@@ -178,6 +179,7 @@
 
     <?php include '../components/footer-atass.php' ?>
     <?php include '../components/footer-bawah.php' ?>
+    <script src="../js/modal-function.js"></script>
 </body>
 
 </html>
