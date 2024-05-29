@@ -13,19 +13,26 @@
 
     <div class="content">
         <h1>Register</h1>
-        <p>Please fill in this form to create an account.</p>
+        <p>When early adopters and innovation seekers discover vibrant and imaginative technology <br> before it becomes
+            mainstream technology.</p>
         <form action="/submit_registration" method="post">
-            <label for="username">Username</label>
-            <input type="text" id="username" name="username" required>
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" name="firstName" required>
+
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" name="lastName" required>
 
             <label for="email">Email</label>
             <input type="email" id="email" name="email" required>
 
+            <label for="confirmEmail">Confirm Email</label>
+            <input type="email" id="confirmEmail" name="confirmEmail" required>
+
             <label for="password">Password</label>
             <input type="password" id="password" name="password" required>
 
-            <label for="password">Confirm Password</label>
-            <input type="password" id="password" name="password" required>
+            <label for="confirmPassword">Confirm Password</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" required>
 
             <div class="password-requirements">
                 <p>Password must contain:</p>
@@ -38,15 +45,15 @@
             </div>
 
             <label>
-                <input type="checkbox" name="terms" required> I accept the <a href="#">Terms of Use</a> & <a
-                    href="#">Privacy Policy</a>
+                <input type="checkbox" name="terms"> Receive tips to help you make the most of your fundraiser,
+                and updates about important causes. Unsubscribe anytime.
             </label>
 
             <button type="submit">Register</button>
         </form>
 
         <div class="login-link">
-            <p>Already have an account? <a href="/login">Login here</a>.</p>
+            <p>Already have an account? <a href="../html/login.php">Login here</a>.</p>
         </div>
     </div>
 </body>
