@@ -31,6 +31,7 @@
     </div>
 
     <div class="container">
+    <a href="water-for-africa.html" class="card-link">
         <div class="card">
             <img src="../assets/kevin-lehtla.jpg" alt="Kevin Lehtla">
             <h2>Water for Africa</h2>
@@ -38,8 +39,10 @@
                 <div class="progress-bar" style="width: 80%;"></div>
             </div>
             <p>$1,234,567 Raised</p>
-
         </div>
+    </a>
+    
+    <a href="food-for-gaza.html" class="card-link">
         <div class="card">
             <img src="../assets/kevin-lehtla.jpg" alt="Kevin Lehtla">
             <h2>Food for Gaza</h2>
@@ -47,8 +50,10 @@
                 <div class="progress-bar" style="width: 80%;"></div>
             </div>
             <p>$1,234,567 Raised</p>
-
         </div>
+    </a>
+    
+    <a href="scholarship-fundraising.html" class="card-link">
         <div class="card">
             <img src="../assets/kevin-lehtla.jpg" alt="Kevin Lehtla">
             <h2>Scholarship Fundraising</h2>
@@ -56,8 +61,10 @@
                 <div class="progress-bar" style="width: 80%;"></div>
             </div>
             <p>$1,234,567 Raised</p>
-
         </div>
+    </a>
+    
+    <a href="cat-food-china.html" class="card-link">
         <div class="card">
             <img src="../assets/kevin-lehtla.jpg" alt="Kevin Lehtla">
             <h2>Cat food for cat street in China</h2>
@@ -66,8 +73,9 @@
             </div>
             <p>$1,234,567 Raised</p>
         </div>
-    </div>
+    </a>
 </div>
+
 
 
 

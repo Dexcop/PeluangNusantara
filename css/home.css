@@ -179,7 +179,7 @@
   width: 100%;
   height: auto;
   margin-top: 20px;
-  flex-wrap: wrap; /* Added to allow wrapping */
+  flex-wrap: wrap; 
 }
 
 .card {
@@ -247,5 +247,14 @@
 .card .donation span {
   font-size: 0.8rem;
   color: #555;
+}
+
+.card-link {
+  text-decoration: none;
+  color: inherit; /* Pindahkan warna dari parent */
+}
+
+.card-link:hover {
+  text-decoration: underline; /* Tambahkan garis bawah saat dihover */
 }
 
