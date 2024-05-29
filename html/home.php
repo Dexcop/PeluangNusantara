@@ -20,13 +20,25 @@
                 <h2>Scholarship fundrasing by abc</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lobortis euismod quam, sed <br> auctor
                     est lacinia et. Vivamus elementum purus et ornare tempor. Suspendisse eget iaculis <br> nibh, id
-                    pulvinar purus. </p>
+                    pulvinar purus.</p>
             </div>
             <div class="discover-btn">
                 <a href="#"><button>Discover More</button></a>
             </div>
         </div>
-
+        
+        <section class="niga">
+            <h2>Fundraising on Peluang </h2>
+            <h2>Nusantara is easy, powerful, </h2>
+            <h2>and trusted.</h2>
+            <p>Get what you need to help your fundraiser succeed on <strong>Peluang Nusantara,</strong> 
+                whether you're raising money for yourself, friends, family, or charity. With
+                no fee to start, <strong>Peluang Nusantara</strong> is the world's 
+                leading crowdfunding platform—from memorial tributes and funerals 
+                to medical emergencies and nonprofits. Whenever you need help, you can 
+                ask here.</p>
+        </section>
+        
         <section class="faq">
             <h2>Still have questions?</h2>
             <p>Still have questions? Learn more about how <strong>Peluang Nusantara</strong> works.</p>
