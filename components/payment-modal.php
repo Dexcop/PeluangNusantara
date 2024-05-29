@@ -41,7 +41,7 @@
     <div class="modal-content">
         <span class="close">&times;</span>
         <h2>Payment Detail</h2>
-        <form action="../components/thankyuu.php" method="POST">
+        <form id="thanks-btn">
 
             <label for="description">Write your message:</label>
             <textarea id="description" name="description" rows="4" required></textarea>
@@ -99,9 +99,11 @@
                 <label for="age-checkbox">I am 18 years old</label>
             </div>
 
-
-            <button type="submit" class="continue-payment" id="thanks-btn">Lanjutkan Pembayaran</button>
+            <button type="submit" class="continue-payment">Lanjutkan Pembayaran</button>
         </form>
     </div>
 
 </div>
+<?php include '../components/thankyuu.php' ?>
+
+<script src="../js/function-modal.js"></script>
