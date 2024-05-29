@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Peluang Nusantara - Information</title>
+    <title>Peluang Nusantara - Information system</title>
     <link rel="stylesheet" href="../css/information.css">
 </head>
 
