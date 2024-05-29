@@ -26,7 +26,15 @@
                 <a href="#"><button>Discover More</button></a>
             </div>
         </div>
+
+        <section class="faq">
+            <h2>Still have questions?</h2>
+            <p>Still have questions? Learn more about how <strong>Peluang Nusantara</strong> works.</p>
+            <button>Consultation</button>
+        </section>
     </div>
+
+    
 
     <?php include '../components/footer-atass.php' ?>
     <?php include '../components/footer-bawah.php' ?>
