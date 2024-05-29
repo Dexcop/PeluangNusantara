@@ -22,7 +22,7 @@
         </div> -->
     </div>
 
-    <?php include '../components/footer-bawah.php' ?>
+    <?php include '../components/footer-bawah.php'?>
 </body>
 
 </html>
