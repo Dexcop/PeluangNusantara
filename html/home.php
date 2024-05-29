@@ -13,11 +13,18 @@
 
     <div class="content">
         <div class="page2">
-            <img src="../assets/kevin-lehtla.jpg" alt="Sample Image" class="image">
-            <h1>Discover Around You</h1>
-            <h2>Scholarship fundrasing by abc</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lobortis euismod quam, sed <br> auctor est lacinia et. Vivamus elementum purus et ornare tempor. Suspendisse eget iaculis <br> nibh, id pulvinar purus. </p>
-            <a href="#">Discover More</a>
+            <!-- <img src="../assets/kevin-lehtla.jpg" alt="Sample Image" class="image"> -->
+            <section class="banner"></section>
+            <div class="text">
+                <h1>Discover Around You</h1>
+                <h2>Scholarship fundrasing by abc</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lobortis euismod quam, sed <br> auctor
+                    est lacinia et. Vivamus elementum purus et ornare tempor. Suspendisse eget iaculis <br> nibh, id
+                    pulvinar purus. </p>
+            </div>
+            <div class="discover-btn">
+                <a href="#"><button>Discover More</button></a>
+            </div>
         </div>
 
         <section class="faq">
