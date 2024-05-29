@@ -1,52 +1,59 @@
-header {
-  font-family: sans-serif;
+body {
   margin: 0;
-  padding: 0;
-  background-color: #fff;
+  font-family: sans-serif;
+}
+
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
-  background-color: #fff;
-  border-bottom: 1px solid #ddd;
+  padding: 10px 20px;
+  background-color: #f8f8f8;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 nav ul {
-  list-style: none;
+  display: flex;
+  list-style-type: none;
   padding: 0;
   margin: 0;
-  display: flex;
 }
 
-nav li {
-  margin-right: 2rem;
+nav ul li {
+  margin-right: 20px;
 }
 
-nav a {
+nav ul li a {
   text-decoration: none;
   color: #333;
+  font-weight: bold;
+  transition: color 0.3s ease;
 }
 
-.logo img {
-  width: 10%;
-  height: 5%;
-  /* position: absolute;
-  top: 50%;
+nav ul li a:hover {
+  color: #007BFF;
+}
+
+.mylogo {
+  position: absolute;
   left: 50%;
-  transform: translate(-50%, -50%); */
+  transform: translateX(-50%);
 }
 
 .mylogo img {
-  width: 10%;
-  height: 5%;
-  margin-left: 30%;
-  /* position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); */
+  max-height: 50px;
+}
+
+.joinuss {
+  display: flex;
+  align-items: center;
 }
 
 .joinuss img {
-  width: 25%;
-  height: 15%;
+  max-height: 40px;
+  transition: transform 0.3s ease;
+}
+
+.joinuss img:hover {
+  transform: scale(1.1);
 }
