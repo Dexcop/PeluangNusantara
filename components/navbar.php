@@ -9,5 +9,5 @@
       </ul>
     </nav>
     <div class="mylogo"><img src="../assets/logo.png" alt=""></div>
-    <a href=""><button>Join Us</button></a>
+    <a href="" class="joinuss"><img src="../assets/join-us.png" alt=""></a>
   </header>
