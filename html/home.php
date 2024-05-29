@@ -12,7 +12,7 @@
     <div class="content">
 
     </div>
-
+    <?php include '../components/footer-atass.php'?>
     <?php include '../components/footer-bawah.php'?>
 </body>
 </html>
