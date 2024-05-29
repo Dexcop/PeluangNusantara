@@ -102,6 +102,7 @@
                 <p><a href="#">Report fundraiser</a> | <a href="#">Emergencies</a></p>
             </div>
         </div>
+        
         <div class="right">
             <h1 class="title">$123,456</h1>
             <p>12.34K donation</p>
