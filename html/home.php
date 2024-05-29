@@ -18,20 +18,59 @@
     </section>
 
     <div class="content">
-        <div class="page2">
-            <!-- <img src="../assets/kevin-lehtla.jpg" alt="Sample Image" class="image"> -->
-            <section class="banner"></section>
-            <div class="text">
-                <h1>Discover Around You</h1>
-                <h2>Scholarship fundrasing by abc</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lobortis euismod quam, sed <br> auctor
-                    est lacinia et. Vivamus elementum purus et ornare tempor. Suspendisse eget iaculis <br> nibh, id
-                    pulvinar purus.</p>
-            </div>
-            <div class="discover-btn">
-                <a href="#"><button>Discover More</button></a>
-            </div>
+    <div class="page2">
+        <section class="banner"></section>
+        <div class="text">
+            <h1>Discover Around You</h1>
+            <h2>Scholarship fundraising by abc</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lobortis euismod quam, sed auctor est lacinia et. Vivamus elementum purus et ornare tempor. Suspendisse eget iaculis nibh, id pulvinar purus.</p>
         </div>
+        <div class="discover-btn">
+            <a href="#"><button>Discover More</button></a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="card">
+            <img src="../assets/kevin-lehtla.jpg" alt="Kevin Lehtla">
+            <h2>Water for Africa</h2>
+            <div class="progress">
+                <div class="progress-bar" style="width: 80%;"></div>
+            </div>
+            <p>$1,234,567 Raised</p>
+
+        </div>
+        <div class="card">
+            <img src="../assets/kevin-lehtla.jpg" alt="Kevin Lehtla">
+            <h2>Food for Gaza</h2>
+            <div class="progress">
+                <div class="progress-bar" style="width: 80%;"></div>
+            </div>
+            <p>$1,234,567 Raised</p>
+
+        </div>
+        <div class="card">
+            <img src="../assets/kevin-lehtla.jpg" alt="Kevin Lehtla">
+            <h2>Scholarship Fundraising</h2>
+            <div class="progress">
+                <div class="progress-bar" style="width: 80%;"></div>
+            </div>
+            <p>$1,234,567 Raised</p>
+
+        </div>
+        <div class="card">
+            <img src="../assets/kevin-lehtla.jpg" alt="Kevin Lehtla">
+            <h2>Cat food for cat street in China</h2>
+            <div class="progress">
+                <div class="progress-bar" style="width: 80%;"></div>
+            </div>
+            <p>$1,234,567 Raised</p>
+        </div>
+    </div>
+</div>
+
+
+
         
         <section class="niga">
             <h2>Fundraising on Peluang 
