@@ -11,6 +11,12 @@
 <body>
     <?php include '../components/navbar.php' ?>
 
+    <section class="jawa">
+        <h2>Enjoy various ways to help others on the Peluang Nusantara</h2>
+        <!-- <h2>help others on the </h2>
+        <h2>Peluang Nusantara</h2> -->
+    </section>
+
     <div class="content">
         <div class="page2">
             <!-- <img src="../assets/kevin-lehtla.jpg" alt="Sample Image" class="image"> -->
@@ -28,9 +34,9 @@
         </div>
         
         <section class="niga">
-            <h2>Fundraising on Peluang </h2>
-            <h2>Nusantara is easy, powerful, </h2>
-            <h2>and trusted.</h2>
+            <h2>Fundraising on Peluang 
+                Nusantara is easy, powerful, 
+                and trusted.</h2>
             <p>Get what you need to help your fundraiser succeed on <strong>Peluang Nusantara,</strong> 
                 whether you're raising money for yourself, friends, family, or charity. With
                 no fee to start, <strong>Peluang Nusantara</strong> is the world's 
@@ -44,12 +50,7 @@
             <p>Still have questions? Learn more about how <strong>Peluang Nusantara</strong> works.</p>
             <button>Consultation</button>
         </section>
-
-       
-
     </div>
-
-    
 
     <?php include '../components/footer-atass.php' ?>
     <?php include '../components/footer-bawah.php' ?>
