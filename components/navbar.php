@@ -2,7 +2,7 @@
 <header>
   <nav>
     <ul>
-      <li><a href="#">Home</a></li>
+      <li><a href="../html/home.php">Home</a></li>
       <li><a href="#">About</a></li>
       <li><a href="#">Services</a></li>
       <li><a href="#">Contact</a></li>
