@@ -9,12 +9,12 @@
 </head>
 
 <body>
+    <?php include '../components/navbar.php' ?>
 
     <div class="container">
         <div class="left">
             <h1 class="title">Water for africa</h1>
-            <img src="../assets/desert.jpg"
-                class="image" alt="Water for africa">
+            <img src="../assets/desert.jpg" class="image" alt="Water for africa">
             <div class="content">
                 <p>In 2018, a group of volunteering students launched a charitable campaign entitled @Ele_Elna_Elak,
                     which means in Arabic, "What we own, you own..." in a clear message to our belief in social
@@ -39,8 +39,7 @@
                 <h2>Organizer</h2>
                 <div class="organizer-info">
                     <div class="person">
-                        <img src="../assets/people-01.png"
-                            alt="Person">
+                        <img src="../assets/people-01.png" alt="Person">
                     </div>
                     <div>
                         <p>Sirye letme yermen</p>
@@ -54,8 +53,7 @@
                 <p>Please donate to share words of support.</p>
                 <div class="support-item">
                     <div class="support-person">
-                        <img src="../assets/people-01.png"
-                            alt="Person">
+                        <img src="../assets/people-01.png" alt="Person">
                     </div>
                     <div>
                         <p class="support-text">Amira dos ques</p>
@@ -66,8 +64,7 @@
                 </div>
                 <div class="support-item">
                     <div class="support-person">
-                        <img src="../assets/people-01.png"
-                            alt="Person">
+                        <img src="../assets/people-01.png" alt="Person">
                     </div>
                     <div>
                         <p class="support-text">Amira dos ques</p>
@@ -78,8 +75,7 @@
                 </div>
                 <div class="support-item">
                     <div class="support-person">
-                        <img src="../assets/people-01.png"
-                            alt="Person">
+                        <img src="../assets/people-01.png" alt="Person">
                     </div>
                     <div>
                         <p class="support-text">Amira dos ques</p>
@@ -90,8 +86,7 @@
                 </div>
                 <div class="support-item">
                     <div class="support-person">
-                        <img src="../assets/people-01.png"
-                            alt="Person">
+                        <img src="../assets/people-01.png" alt="Person">
                     </div>
                     <div>
                         <p class="support-text">Amira dos ques</p>
@@ -117,8 +112,7 @@
             <div class="donations">
                 <div class="donation-item">
                     <div class="donation-person">
-                        <img src="../assets/people-01.png"
-                            alt="Person">
+                        <img src="../assets/people-01.png" alt="Person">
                     </div>
                     <div>
                         <p>Anonymous</p>
@@ -128,8 +122,7 @@
                 </div>
                 <div class="donation-item">
                     <div class="donation-person">
-                        <img src="../assets/people-01.png"
-                            alt="Person">
+                        <img src="../assets/people-01.png" alt="Person">
                     </div>
                     <div>
                         <p>Anonymous</p>
@@ -139,8 +132,7 @@
                 </div>
                 <div class="donation-item">
                     <div class="donation-person">
-                        <img src="../assets/people-01.png"
-                            alt="Person">
+                        <img src="../assets/people-01.png" alt="Person">
                     </div>
                     <div>
                         <p>Anonymous</p>
@@ -150,8 +142,7 @@
                 </div>
                 <div class="donation-item">
                     <div class="donation-person">
-                        <img src="../assets/people-01.png"
-                            alt="Person">
+                        <img src="../assets/people-01.png" alt="Person">
                     </div>
                     <div>
                         <p>Anonymous</p>
@@ -161,8 +152,7 @@
                 </div>
                 <div class="donation-item">
                     <div class="donation-person">
-                        <img src="../assets/people-01.png"
-                            alt="Person">
+                        <img src="../assets/people-01.png" alt="Person">
                     </div>
                     <div>
                         <p>Anonymous</p>
@@ -172,8 +162,7 @@
                 </div>
                 <div class="donation-item">
                     <div class="donation-person">
-                        <img src="../assets/people-01.png"
-                            alt="Person">
+                        <img src="../assets/people-01.png" alt="Person">
                     </div>
                     <div>
                         <p>Anonymous</p>
@@ -187,6 +176,8 @@
         </div>
     </div>
 
+    <?php include '../components/footer-atass.php' ?>
+    <?php include '../components/footer-bawah.php' ?>
 </body>
 
 </html>
