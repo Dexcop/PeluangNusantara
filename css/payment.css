@@ -1,0 +1,158 @@
+body {
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+input[type="number"],
+input[type="checkbox"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.payment-method {
+    white-space: nowrap;
+    margin-bottom: 20px;
+}
+
+.payment-method button {
+    display: inline-block;
+    width: 290px;
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #000000;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.payment-method button:hover {
+    background-color: #555;
+}
+
+.continue-payment {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 3px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    font-size: 18px;
+    width: 200px;
+    transition: background-color 0.3s ease;
+}
+
+.continue-payment:hover {
+    background-color: #45a049;
+}
+
+.terms {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+}
+
+.terms a {
+    color: #333;
+    text-decoration: none;
+}
+
+.terms a:hover {
+    text-decoration: underline;
+}
+
+.card-details {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.card-details .expiry-cvv {
+    height: 30px;
+    width: 135%;
+    margin-bottom: 7%;
+    display: flex;
+}
+
+.card-details input {
+    height: 30px;
+    width: 200%;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    padding: 0 10px;
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+
+
+.card-details .expiry-cvv .expiry-date,
+.card-details .expiry-cvv .cvv {
+    flex: auto;
+    margin-right: 0px;
+    max-width: 200px;
+}
+
+.card-details .expiry-cvv .cvv {    
+    align-items: left;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #4CAF50;
+}
+
+.terms-checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px; 
+  }
+  
+  .terms-checkbox input[type="checkbox"] {
+    margin-right: 10px;
+    width: 20px; 
+    height: 20px; 
+  }
+  
+ 
+  
+  
+
+  
+
+  

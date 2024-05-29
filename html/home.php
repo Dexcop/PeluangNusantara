@@ -19,7 +19,13 @@
             <p>This is a sample paragraph. Here you can provide information about your site or services.</p>
             <p>Feel free to explore more by visiting other sections of our site.</p>
             <a href="#">Learn More</a>
-        </div> -->
+        </div>
+
+        <section class="faq">
+            <h2>Still have questions?</h2>
+            <p>Still have questions? Learn more about how <strong>Peluang Nusantara</strong> works.</p>
+            <button>Consultation</button>
+        </section>
     </div>
 
     
