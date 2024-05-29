@@ -12,7 +12,7 @@
     <?php include '../components/navbar.php' ?>
 
     <div class="content">
-        <!-- <div class="page2">
+        <div class="page2">
             <img src="../assets/kevin-lehtla.jpg" alt="Sample Image" class="image">
             <h1>Welcome to My Page</h1>
             <h2>About Us</h2>
@@ -20,12 +20,6 @@
             <p>Feel free to explore more by visiting other sections of our site.</p>
             <a href="#">Learn More</a>
         </div> -->
-
-        <section class="faq">
-            <h2>Still have questions?</h2>
-            <p>Still have questions? Learn more about how <strong>Peluang Nusantara</strong> works.</p>
-            <button>Consultation</button>
-        </section>
     </div>
 
     
