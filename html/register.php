@@ -6,10 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Peluang Nusantara - Register</title>
     <link rel="stylesheet" href="../css/register.css">
+    <link rel="stylesheet" href="../css/navbar.css">
 </head>
 
 <body>
-    <?php include '../components/navbar.php' ?>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../html/home.php">Home</a></li>
+                <li><a href="../html/donationmenu.php">Donate</a></li>
+                <li><a href="#">About Us</a></li>
+                <!-- <li><a href="#">Contact</a></li> -->
+            </ul>
+        </nav>
+        <div class="mylogo"><img src="../assets/logo.png" alt=""></div>
+        <a href="../html/register.php" class="joinuss"><img src="../assets/join-us.png" alt=""></a>
+    </header>
 
     <div class="content">
         <h1>Register</h1>
