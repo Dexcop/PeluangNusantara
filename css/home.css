@@ -251,10 +251,10 @@
 
 .card-link {
   text-decoration: none;
-  color: inherit; /* Pindahkan warna dari parent */
+  color: inherit;
 }
 
 .card-link:hover {
-  text-decoration: underline; /* Tambahkan garis bawah saat dihover */
+  text-decoration: underline;
 }
 

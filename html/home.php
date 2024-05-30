@@ -42,7 +42,7 @@
         </div>
     </a>
     
-    <a href="food-for-gaza.html" class="card-link">
+    <a href="food-for-gaza.html" class="card-link" >
         <div class="card">
             <img src="../assets/kevin-lehtla.jpg" alt="Kevin Lehtla">
             <h2>Food for Gaza</h2>
