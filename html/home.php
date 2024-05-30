@@ -31,7 +31,7 @@
     </div>
 
     <div class="container">
-    <a href="water-for-africa.html" class="card-link">
+    <a href="../html/information.php" class="card-link">
         <div class="card">
             <img src="../assets/kevin-lehtla.jpg" alt="Kevin Lehtla">
             <h2>Water for Africa</h2>
@@ -42,7 +42,7 @@
         </div>
     </a>
     
-    <a href="food-for-gaza.html" class="card-link" >
+    <a href="../html/information.php" class="card-link">
         <div class="card">
             <img src="../assets/kevin-lehtla.jpg" alt="Kevin Lehtla">
             <h2>Food for Gaza</h2>
@@ -53,7 +53,7 @@
         </div>
     </a>
     
-    <a href="scholarship-fundraising.html" class="card-link">
+    <a href="../html/information.php" class="card-link">
         <div class="card">
             <img src="../assets/kevin-lehtla.jpg" alt="Kevin Lehtla">
             <h2>Scholarship Fundraising</h2>
@@ -64,7 +64,7 @@
         </div>
     </a>
     
-    <a href="cat-food-china.html" class="card-link">
+    <a href="../html/information.php" class="card-link">
         <div class="card">
             <img src="../assets/kevin-lehtla.jpg" alt="Kevin Lehtla">
             <h2>Cat food for cat street in China</h2>
