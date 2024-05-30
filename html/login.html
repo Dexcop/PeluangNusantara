@@ -9,11 +9,11 @@
 </head>
 
 <body>
-  <?php include '../components/navbar.php' ?>
+  <div data-include="../components/navbar.html"></div>
 
   <div class="content">
     <h1>Welcome Back!</h1>
-    <form action="../html/home.php" method="post">
+    <form action="../html/home.html" method="post">
       <label for="email">Email</label>
       <input type="email" id="email" name="email" required>
 
@@ -21,7 +21,7 @@
       <input type="password" id="password" name="password" required>
 
       <div class="password-link">
-        <a href="../html/login.php">Forgot Password</a>
+        <a href="../html/login.html">Forgot Password</a>
       </div>
 
       <button type="submit">Login</button>
