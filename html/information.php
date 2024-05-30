@@ -5,11 +5,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Peluang Nusantara - Information</title>
+    <link rel="stylesheet" href="../css/navbar.css">
     <link rel="stylesheet" href="../css/information.css">
+    <link rel="stylesheet" href="../css/modal.css">
+    <link rel="stylesheet" href="../css/payment.css">
+    <link rel="stylesheet" href="../css/footer-atass.css">
+    <link rel="stylesheet" href="../css/footer-bawah.css">
 </head>
 
 <body>
-    <?php include '../components/navbar.php' ?>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../html/home.php">Home</a></li>
+                <li><a href="../html/donationmenu.php">Donate</a></li>
+                <li><a href="#">About Us</a></li>
+                <!-- <li><a href="#">Contact</a></li> -->
+            </ul>
+        </nav>
+        <div class="mylogo"><img src="../assets/logo.png" alt=""></div>
+        <a href="../html/register.php" class="joinuss"><img src="../assets/join-us.png" alt=""></a>
+    </header>
 
     <div class="content2">
         <div class="left">
@@ -109,7 +125,123 @@
             <div class="donation-bar">
                 <div class="progress"></div>
             </div>
-            <?php include '../components/payment-modal.php' ?>
+
+            <div id="paymentModal" class="modal">
+                <style>
+                    .btn-group {
+                        display: flex;
+                    }
+
+                    .btn-group input[type="radio"] {
+                        display: none;
+                    }
+
+                    .btn-group label {
+                        padding: 10px 20px;
+                        margin: 0 5px;
+                        border: 1px solid #ccc;
+                        background-color: #f8f9fa;
+                        cursor: pointer;
+                        border-radius: 4px;
+                        user-select: none;
+                        transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+                    }
+
+                    .btn-group input[type="radio"]:checked+label {
+                        background-color: #28a745;
+                        /* Green background for selected state */
+                        border-color: #28a745;
+                        /* Green border for selected state */
+                        color: #fff;
+                        /* White text for better contrast */
+                    }
+
+                    .btn-group label:hover {
+                        background-color: #e2e6ea;
+                        /* Light gray on hover */
+                    }
+                </style>
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h2>Payment Detail</h2>
+                    <form id="thanks-btn">
+
+                        <label for="description">Write your message:</label>
+                        <textarea id="description" name="description" rows="4" required></textarea>
+
+                        <label for="name">Your Name:</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="email">Your Email:</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <div class="payment-method">
+                            <label for="payment_method">Payment method:</label>
+                            <div class="btn-group">
+                                <input type="radio" name="payment_method" id="cardChoice" value="Card">
+                                <label for="cardChoice">Card</label>
+
+                                <input type="radio" name="payment_method" id="creditCardChoice" value="Credit Card">
+                                <label for="creditCardChoice">Credit Card</label>
+                            </div>
+                            <!-- <button type="button" class="payment-method-btn" value="Card">Card</button>
+            <button type="button" class="payment-method-btn" value="Credit Card">Credit Card</button> -->
+                        </div>
+
+                        <div class="card-details">
+                            <label for="card-number">Card detail:</label>
+                            <div class="card-number">
+                                <input type="text" id="card-number" name="card-number" placeholder="Card Number"
+                                    required>
+                            </div>
+
+                            <div class="expiry-cvv">
+                                <div class="expiry-date">
+                                    <input type="text" id="expiry-date" name="expiry-date" placeholder="MM/YY" required>
+                                </div>
+                                <div class="cvv">
+                                    <input type="text" id="cvv" name="cvv" placeholder="CVV" required>
+                                </div>
+                            </div>
+                        </div>
+
+                        <label for="billing">Billing postcode:</label>
+                        <input type="text" id="billing" name="billing" required>
+
+                        <label for="country">Country:</label>
+                        <input type="text" id="country" name="country" required>
+
+                        <div class="terms-checkbox">
+                            <input type="checkbox" id="agree-checkbox" name="agree" required>
+                            <label for="agree-checkbox">I hereby declare this transaction is: purely my support
+                                for______,
+                                non-refundable, not for a commercial transaction, not for any illegal activity, not
+                                violating the
+                                #Terms .</label>
+                        </div>
+
+                        <div class="terms-checkbox">
+                            <input type="checkbox" id="age-checkbox" name="age" required>
+                            <label for="age-checkbox">I am 18 years old</label>
+                        </div>
+
+                        <button type="submit" class="continue-payment">Lanjutkan Pembayaran</button>
+                    </form>
+                </div>
+
+            </div>
+            <link rel="stylesheet" href="../css/thankyou.css">
+
+            <div class="modal" id="thanksModal">
+                <div class="modal-content">
+                    <h1>Thank You!</h1>
+                    <p>Your submission has been received.</p>
+                    <button onclick="window.location.href='../html/home.php'">Go Home</button>
+                </div>
+            </div>
+
             <button class="donate-button" id="donate-button">Donate</button>
             <div class="donations">
                 <div class="donation-item">
@@ -178,9 +310,56 @@
         </div>
     </div>
 
-    <?php include '../components/footer-atass.php' ?>
-    <?php include '../components/footer-bawah.php' ?>
-    <script src="../js/modal-function.js"></script>
+    <footer class="footer">
+        <div class="footer-logo">
+            <div class="mylogo-footer"><img src="../assets/logo.png" alt="Peluang Nusantara Logo"></div>
+        </div>
+        <div class="footer-nav">
+            <div>
+                <h3>Fundraise for</h3>
+                <ul>
+                    <li><a href="#">Medical</a></li>
+                    <li><a href="#">Emergency</a></li>
+                    <li><a href="#">Memorial</a></li>
+                    <li><a href="#">Education</a></li>
+                    <li><a href="#">Non Profit</a></li>
+                    <li><a href="#">Crisis Relief</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Learn More</h3>
+                <ul>
+                    <li><a href="#">How it works</a></li>
+                    <li><a href="#">Why Peluang Nusantara</a></li>
+                    <li><a href="#">Common Question</a></li>
+                    <li><a href="#">Success Stories</a></li>
+                    <li><a href="#">Charity Fundraising</a></li>
+                    <li><a href="#">Pricing</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Resource</h3>
+                <ul>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Carier</a></li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-links">
+            <a href="#">© 2024Peluang Nusantara</a>
+            <a href="#">Terms</a>
+            <a href="#">Privacy Notice</a>
+            <a href="#">Legal</a>
+            <a href="#">Accessibility Statement</a>
+            <a href="#">Your Privacy Cookies</a>
+        </div>
+    </footer>
 </body>
+<script src="../js/function-modal.js"></script>
+<script src="../js/modal-function.js"></script>
 
 </html>
