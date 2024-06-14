@@ -14,7 +14,8 @@ body {
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   width: 400px;
-  margin-left: 65.7%;
+  /* margin-left: 65.7%; */
+  transform: translate(202%, 2%);
 }
 
 .content h1 {
@@ -52,6 +53,7 @@ input[type="checkbox"] {
   cursor: pointer;
   width: 100%;
   font-size: 16px;
+  margin-top: 21px;
 }
 
 .content button:hover {

@@ -1,59 +1,109 @@
 body {
-    font-family: sans-serif;
-}
-  
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;  
-}
-  
-.grid-item {
-    text-align: center;
-}
-  
-img {
-    max-width: 100%;
-    height: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f4;
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
 
-  .section {
-    width: 100%;
-    padding: 20px;
-    text-align: center;
-    background-color: #f2f2f2;
-  }
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
 
-  .section img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-  }
+.categories {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 
-  .section h2 {
-    margin-top: 10px;
-    margin-bottom: 5px;
-  }
+.category {
+  width: 300px;
+  margin: 10px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
 
-  .section p {
-    margin-bottom: 20px;
-  }
+.category img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
 
-  .button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
+.category h3 {
+  margin-bottom: 5px;
+  color: #333;
+}
 
-  .button:hover {
-    background-color: #45a049;
-  }
+.category a {
+  text-decoration: none;
+}
+
+.category p {
+  color: #666;
+}
+
+.button {
+  display: block;
+  width: 150px;
+  padding: 10px;
+  margin: 20px auto;
+  background-color: #008CBA;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #0077cc;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.logo {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
