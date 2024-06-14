@@ -15,7 +15,8 @@ body {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   width: 400px;
   margin-left: 65.7%;
-  height: 100%;
+  height: 81%;
+  transform: translate(4%, 1%);
 }
 
 .content h1 {
