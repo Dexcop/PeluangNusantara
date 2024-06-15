@@ -68,7 +68,7 @@
 
 .text {
   position: absolute;
-  top: 39%;
+  top: 25%;
   left: 2%;
   text-align: left;
   padding: 20px;
@@ -95,7 +95,7 @@
 
 .discover-btn button {
   position: absolute;
-  top: 85%;
+  top: 82%;
   right: 4%;
   /* transform: translate(-50%, -50%); */
   background-color: white;
@@ -140,7 +140,7 @@
 
 .niga {
   /* background-color: rgba(175, 244, 198, 1); */
-  background-image: url(../assets/teeth.jpg);
+  background-image: url("../assets/teeth.jpg");
   background-position: center -11em;
   text-align: left;
   padding: 40px 20px;

@@ -45,7 +45,7 @@ body {
 
 .lower-category .overlay button {
     color: black;
-    transform: translate(446%, -50%);
+    transform: translate(313%, -50%);
     border-radius: 67px;
     width: 7em;
     height: 2em;
@@ -58,8 +58,8 @@ body {
 }
 
 .lower-category p {
-    margin: 0 0 69px;
-    font-size: 2rem;
+    margin: 0 0 87px;
+    font-size: 1.5rem;
 }
 
 .button {
@@ -96,7 +96,7 @@ body {
     border-radius: 10px;
 }
 
-.card a{
+.card a {
     text-decoration: none;
     color: black;
 }
@@ -149,7 +149,7 @@ body {
     margin: 4em 2em 2em 2em;
     font-size: 2em;
     border-radius: 18px;
-    transform: translate(667%);
+    transform: translate(571%);
 }
 
 .btn:hover {
