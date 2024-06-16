@@ -2,13 +2,20 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.main-content {
+    margin-top: 2%;
+}
+
 .content2 {
     display: flex;
 }
 
 .left {
-    width: 50%;
+    width: 65%;
     padding: 20px;
+    padding-top: 20px;
+    padding-top: 0;
+    margin-left: 20px;
 }
 
 .left img {
@@ -16,15 +23,20 @@ body {
 }
 
 .right {
-    width: 50%;
     height: 50%;
+    margin-left: 22px;
+    width: 20%;
     padding: 20px;
+    border-radius: 10px;
+    border: 2px solid rgba(179, 179, 179, 1);
+    /* box-shadow: 0px 4px 6px rgba(51, 51, 51, 1); */
 }
 
 .title {
-    text-align: center;
-    font-size: 32px;
+    text-align: left;
+    font-size: 62px;
     margin-bottom: 20px;
+    margin-left: 39px;
 }
 
 .image {
@@ -62,8 +74,8 @@ body {
 }
 
 .contact {
-    background-color: #4CAF50;
-    color: white;
+    background-color: rgb(255, 255, 255);
+    color: rgba(0, 0, 0, 0.8);
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
@@ -71,6 +83,8 @@ body {
     font-size: 16px;
     border-radius: 5px;
     margin-top: 10px;
+    border: 2px solid rgb(227, 227, 227);
+    border-radius: 14px;
 }
 
 .words-of-support {
@@ -99,8 +113,8 @@ body {
 }
 
 .show-more {
-    background-color: #4CAF50;
-    color: white;
+    background-color: rgb(255, 255, 255);
+    color: rgba(0, 0, 0, 0.8);
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
@@ -108,26 +122,21 @@ body {
     font-size: 16px;
     border-radius: 5px;
     margin-top: 10px;
+    border: 2px solid rgb(227, 227, 227);
+    border-radius: 14px;
 }
 
 .footer {
-    text-align: center;
+    text-align: left;
     margin-top: 20px;
     font-size: 12px;
-}
-
-.right {
-    width: 50%;
-    padding: 20px;
-    border-radius: 10px;
-    border: 2px solid rgba(179, 179, 179, 1);
-    box-shadow: 0px 4px 6px rgba(51, 51, 51, 1);
 }
 
 .right .title {
     text-align: center;
     font-size: 32px;
     margin-bottom: 20px;
+    margin-left: 15px;
 }
 
 .right .donation-bar {
@@ -152,9 +161,12 @@ body {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    border-radius: 5px;
+    border-radius: 38px;
+    margin-top: 9px;
     margin-bottom: 20px;
+    font-size: 1em;
+    width: 100%;
+    border-style: none;
 }
 
 .right .donations {
@@ -183,15 +195,18 @@ body {
 
 .right .see-all-button,
 .right .see-top-button {
-    background-color: #4CAF50;
-    color: white;
+    background-color: rgba(175, 244, 198, 0.34);
+    color: black;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    border-radius: 5px;
+    border-radius: 13px;
     margin-top: 10px;
+    margin-left: 36px;
+    border-style: none;
+    border: 2px solid rgb(203, 233, 216);
 }
 
 .right .see-all-button {
