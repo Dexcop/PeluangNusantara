@@ -5,11 +5,19 @@ body {
 
 header {
   display: flex;
+  justify-content: center;
+}
+
+.navbar {
+  display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  background-color: #f8f8f8;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+  width: 70%;
+  border-radius: 40px;
+  margin-top: 2em;
 }
 
 nav ul {
@@ -46,6 +54,7 @@ nav ul li a:hover {
 
 .mylogo img {
   max-height: 50px;
+  margin-left: 40%;
 }
 
 .joinuss {
