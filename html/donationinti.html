@@ -15,14 +15,18 @@
     <header>
         <div class="navbar">
             <a href="../html/home.html">
-                <div class="mylogo"><img src="../assets/logo.png" alt=""></div>
+                <img src="../assets/logo.png" class="mylogo" alt="Homepage" loading="lazy">
             </a>
             <nav>
                 <ul>
                     <!-- <li><a href="../html/home.html">Home</a></li> -->
                     <li><a href="../html/donationmenu.html">Donate</a></li>
                     <li><a href="#">About Us</a></li>
-                    <li><a href="../html/register.html" class="joinuss"><img src="../assets/btn2.png" alt=""></a></li>
+                    <li>
+                        <a href="../html/register.html" class="joinuss">
+                            Donate Now
+                        </a>
+                    </li>
                 </ul>
             </nav>
         </div>
@@ -41,11 +45,11 @@
                     est lacinia
                     et.
                 </p>
-                <button>
-                    <a href="information.html">
-                        <strong>Learn More</strong>
-                    </a>
-                </button>
+                <div class="discover">
+                    <div class="discover-btn">
+                        <a href="../html/information.html">Learn More</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -83,7 +87,7 @@
         </div>
         <div class="card">
             <a href="information.html">
-                <img src="../assets/catFood.png" alt="Cat Food for Cat Street in China" class="card-imgs">
+                <img src="../assets/catFood.png" alt="Cat Food for Cat Street in China" class="card-imgs" style="object-position: top;">
                 <div class="card-title">Cat food for cat street in china</div>
                 <div class="card-text">$1234,567 Raised</div>
                 <div class="progress-container">
@@ -126,7 +130,7 @@
         </div>
         <div class="card">
             <a href="information.html">
-                <img src="../assets/catFood.png" alt="Cat Food for Cat Street in China" class="card-img">
+                <img src="../assets/catFood.png" alt="Cat Food for Cat Street in China" class="card-img" style="object-position: top;">
                 <div class="card-title">Cat food for cat street in china</div>
                 <div class="card-text">$1234,567 Raised</div>
                 <div class="progress-container">
@@ -136,7 +140,9 @@
         </div>
     </div>
 
-    <button class="btn">Show More</button>
+    <div class="show-more-container">
+        <button class="show-more">Show More</button>
+    </div>
 
     <footer class="footer">
         <div class="footer-logo">
@@ -187,6 +193,26 @@
         </div>
     </footer>
 
+    <script>
+        window.addEventListener('scroll', (event) => {
+            let scroll = this.scrollY;
+            if (scroll >= 100) {
+                document.getElementsByClassName('navbar')[0]
+                    .setAttribute('style', `
+                        width: 90%;
+                        background-color: rgba(255, 255, 255, 0.65);
+                        backdrop-filter: blur(5px);
+                    `);
+            } else {
+                document.getElementsByClassName('navbar')[0]
+                    .setAttribute('style', `
+                        width: 70%;
+                        background-color: rgba(255, 255, 255, 1);
+                        backdrop-filter: blur(0px);
+                    `);
+            }
+        })
+    </script>
 </body>
 
 </html>

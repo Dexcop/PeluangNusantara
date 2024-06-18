@@ -15,8 +15,8 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: calc(100vh - -15em); /* Adjust this value if your navbar height is different */
   width: 100%;
+  height: calc(100vh - 70px);
 }
 
 .content {
@@ -26,7 +26,7 @@ header {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   width: 400px;
   /* margin-left: 65.7%; */
-  height: 75%;
+  /* height: 75%; */
   /* transform: translate(4%, 1%); */
 }
 

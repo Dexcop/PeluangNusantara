@@ -67,6 +67,33 @@ hr {
     font-size: 1.5rem;
 }
 
+.discover {
+    display: flex;
+    width: calc(100% - 80px);
+    justify-content: end;
+}
+
+.lower-category .overlay .discover .discover-btn a {
+    text-decoration: none;
+    justify-content: end;
+    width: auto;
+    text-align: right;
+    display: block;
+    padding: 10px 30px;
+    background: white;
+    color: black;
+    font-size: large;
+    border-radius: 40px;
+    font-weight: bold;
+    margin-top: -50px;
+    margin-bottom: 50px;
+    transition: .3s ease;
+}
+
+.lower-category .overlay .discover .discover-btn a:hover {
+    transform: scale(1.05)
+}
+
 .button {
     display: block;
     width: 150px;
@@ -94,7 +121,8 @@ hr {
 .card {
     width: 263px;
     height: 282px;
-    margin: 36px 30px -4px 50px;
+    margin: 36px 10px -4px 10px;
+    padding: 20px;
     background-color: #fff;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
@@ -108,12 +136,14 @@ hr {
 
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    transform: scale(1.01);
 }
 
 .card-img {
     width: 100%;
     height: 150px;
     object-fit: cover;
+    border-radius: 5px;
 }
 
 .card-imgs {
@@ -136,29 +166,42 @@ hr {
     height: 10px;
     background-color: #ddd;
     margin: 10px 0;
+    border-radius: 5px;
 }
 
 .progress-bar {
     height: 100%;
     background-color: #4CAF50;
     width: 50%;
+    border-radius: 5px;
     /* Adjust percentage as needed */
 }
 
-.btn {
-    padding: 10px 20px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    cursor: pointer;
-    margin: 4em 2em 2em 2em;
-    font-size: 2em;
-    border-radius: 18px;
-    transform: translate(571%);
+.show-more-container {
+    display: flex;
+    width: calc(100% - 100px);
+    justify-content: end;
+    padding: 40px;
 }
 
-.btn:hover {
-    background-color: #3e8e41;
+.show-more {
+    background-color: rgb(255, 255, 255);
+    color: rgba(0, 0, 0, 0.8);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: 2px solid rgb(227, 227, 227);
+    border-radius: 14px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.show-more:hover {
+    background-color: rgb(222, 222, 222);
 }
 
 .title {
