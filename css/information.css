@@ -1,0 +1,251 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-content {
+    margin-top: 2%;
+}
+
+.content2 {
+    display: flex;
+}
+
+.left {
+    width: 65%;
+    padding: 20px;
+    padding-top: 20px;
+    padding-top: 0;
+    margin-left: 20px;
+}
+
+.left img {
+    border-radius: 15px;
+}
+
+.right {
+    height: 50%;
+    margin-left: 22px;
+    width: 20%;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid rgba(179, 179, 179, 1);
+    /* box-shadow: 0px 4px 6px rgba(51, 51, 51, 1); */
+}
+
+.title {
+    text-align: left;
+    font-size: 62px;
+    margin-bottom: 20px;
+    margin-left: 39px;
+}
+
+.image {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.content {
+    margin-bottom: 20px;
+}
+
+.update {
+    margin-bottom: 10px;
+}
+
+.update h2 {
+    font-weight: bold;
+}
+
+.organizer {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.organizer-info {
+    display: flex;
+    align-items: center;
+}
+
+.person {
+    margin-right: 10px;
+}
+
+.person img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    align-self: start;
+    margin-top: 15px;
+}
+
+.contact {
+    background-color: rgb(255, 255, 255);
+    color: rgba(0, 0, 0, 0.8);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: 2px solid rgb(227, 227, 227);
+    border-radius: 14px;
+}
+
+.words-of-support {
+    margin-bottom: 10px;
+}
+
+.words-of-support h2 {
+    font-weight: bold;
+}
+
+.support-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.support-person {
+    margin-right: 10px;
+    align-self: start;
+    margin-top: 15px;
+}
+
+.support-person img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.support-text {
+    margin-bottom: 5px;
+}
+
+.support-text.name {
+    font-weight: bold ;
+}
+
+.support-text.date {
+    margin-top: -5px;
+    opacity: .75;
+}
+
+button {
+    background-color: rgb(255, 255, 255);
+    color: rgba(0, 0, 0, 0.8);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: 2px solid rgb(227, 227, 227);
+    border-radius: 14px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+button:hover {
+    background-color: rgb(222, 222, 222);
+}
+
+.footer {
+    text-align: left;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.right .title {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+
+.right .donation-bar {
+    background-color: #eee;
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.right .donation-bar .progress {
+    background-color: #4CAF50;
+    height: 100%;
+    width: 75%;
+    border-radius: 5px 0 0 5px;
+}
+
+.right .donate-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 38px;
+    margin-top: 9px;
+    margin-bottom: 20px;
+    font-size: 1em;
+    width: 100%;
+    border-style: none;
+}
+
+.right .donations {
+    margin-bottom: 20px;
+}
+
+.right .donation-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.right .donation-item div:not(.donation-item) {
+    line-height: 5px;
+}
+
+.right .donation-person {
+    margin-right: 10px;
+    align-self: start;
+    margin-top: 15px;
+}
+
+.right .donation-person img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.right .donation-amount {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.right .date {
+    font-size: small;
+    opacity: .5;
+}
+
+.right .see-all-button,
+.right .see-top-button {
+    background-color: rgba(175, 244, 198, 0.34);
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 13px;
+    margin-top: 10px;
+    margin-left: 36px;
+    border-style: none;
+    border: 2px solid rgb(203, 233, 216);
+}
+
+.right .see-all-button {
+    margin-right: 10px;
+}

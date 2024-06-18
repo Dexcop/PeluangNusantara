@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peluang Nusantara - Register</title>
+    <link rel="stylesheet" href="../css/register.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <a href="../html/home.html">
+                <img src="../assets/logo.png" class="mylogo" alt="Homepage" loading="lazy">
+            </a>
+            <nav>
+                <ul>
+                    <!-- <li><a href="../html/home.html">Home</a></li> -->
+                    <li><a href="../html/donationmenu.html">Donate</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li>
+                        <a href="../html/register.html" class="joinuss">
+                            Donate Now
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="content">
+            <h1>Register</h1>
+            <p>When early adopters and innovation seekers discover vibrant and imaginative technology <br> before it
+                becomes
+                mainstream technology.</p>
+            <form action="/submit_registration" method="post">
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" name="firstName" required>
+
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" name="lastName" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="confirmEmail">Confirm Email</label>
+                <input type="email" id="confirmEmail" name="confirmEmail" required>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+
+                <label for="confirmPassword">Confirm Password</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" required>
+
+                <div class="password-requirements">
+                    <p>Password must contain:</p>
+                    <ul>
+                        <li>At least 8 characters</li>
+                        <li>At least one uppercase letter</li>
+                        <li>At least one number</li>
+                        <li>At least one special character</li>
+                    </ul>
+                </div>
+
+                <label>
+                    <input type="checkbox" name="terms"> Receive tips to help you make the most of your fundraiser,
+                    and updates about important causes. Unsubscribe anytime.
+                </label>
+
+                <button type="submit">Register</button>
+            </form>
+
+            <div class="login-link">
+                <p>Already have an account? <a href="../html/login.html">Login here</a>.</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        window.addEventListener('scroll', (event) => {
+            let scroll = this.scrollY;
+            if (scroll >= 100) {
+                document.getElementsByClassName('navbar')[0]
+                    .setAttribute('style', `
+                        width: 90%;
+                        background-color: rgba(255, 255, 255, 0.65);
+                        backdrop-filter: blur(5px);
+                    `);
+            } else {
+                document.getElementsByClassName('navbar')[0]
+                    .setAttribute('style', `
+                        width: 70%;
+                        background-color: rgba(255, 255, 255, 1);
+                        backdrop-filter: blur(0px);
+                    `);
+            }
+        })
+    </script>
+</body>
+
+</html>

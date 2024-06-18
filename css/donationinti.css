@@ -1,0 +1,221 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+hr {
+    margin-top: 3%;
+    max-width: 80%;
+}
+
+.lower-container {
+    display: block;
+}
+
+.lower-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.lower-container a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    padding: 20px 0;
+}
+
+.lower-category {
+    position: relative;
+    width: 100%;
+    height: 800px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.lower-category .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: end;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.lower-category .overlay button {
+    color: black;
+    transform: translate(313%, -50%);
+    border-radius: 67px;
+    width: 7em;
+    height: 2em;
+    font-size: 3em;
+}
+
+.lower-category h3 {
+    margin: 20px 20px 10px;
+    font-size: 4.5rem;
+}
+
+.lower-category p {
+    margin: 0 0 87px;
+    font-size: 1.5rem;
+}
+
+.discover {
+    display: flex;
+    width: calc(100% - 80px);
+    justify-content: end;
+}
+
+.lower-category .overlay .discover .discover-btn a {
+    text-decoration: none;
+    justify-content: end;
+    width: auto;
+    text-align: right;
+    display: block;
+    padding: 10px 30px;
+    background: white;
+    color: black;
+    font-size: large;
+    border-radius: 40px;
+    font-weight: bold;
+    margin-top: -50px;
+    margin-bottom: 50px;
+    transition: .3s ease;
+}
+
+.lower-category .overlay .discover .discover-btn a:hover {
+    transform: scale(1.05)
+}
+
+.button {
+    display: block;
+    width: 150px;
+    padding: 10px;
+    margin: 20px auto;
+    background-color: #008CBA;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #0077cc;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 263px;
+    height: 282px;
+    margin: 36px 10px -4px 10px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    transform: scale(1.01);
+}
+
+.card-img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.card-imgs {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card-title {
+    padding: 10px;
+    font-weight: bold;
+}
+
+.card-text {
+    padding: 10px;
+}
+
+.progress-container {
+    width: 100%;
+    height: 10px;
+    background-color: #ddd;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.progress-bar {
+    height: 100%;
+    background-color: #4CAF50;
+    width: 50%;
+    border-radius: 5px;
+    /* Adjust percentage as needed */
+}
+
+.show-more-container {
+    display: flex;
+    width: calc(100% - 100px);
+    justify-content: end;
+    padding: 40px;
+}
+
+.show-more {
+    background-color: rgb(255, 255, 255);
+    color: rgba(0, 0, 0, 0.8);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: 2px solid rgb(227, 227, 227);
+    border-radius: 14px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.show-more:hover {
+    background-color: rgb(222, 222, 222);
+}
+
+.title {
+    /* text-align: center; */
+    padding: 10px;
+    /* background-color: #4CAF50; */
+    color: black;
+    margin-bottom: 10px;
+    font-size: 3.5rem;
+    transform: translateX(3%);
+    margin-top: 5%;
+    max-width: 80%;
+}
+
+.title h1 {
+    margin: 0;
+}
